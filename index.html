@@ -1,0 +1,28 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <title>Hello, world!</title>
+  </head>
+  <body>
+    <h1>Hello, world!</h1>
+    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+
+    <textarea id="page-plugins" cols="160" rows="5">
+    </textarea>
+    </br>
+    <button onclick="PagePlugins.save()">save</button>
+    <button onclick="PagePlugins.reset()">reset</button>
+
+    <script src="page_plugins.js"></script>
+
+    <script>
+      PagePlugins.plugins.push({ url: 'https://gist.githubusercontent.com/Masa331/28d4fc7cde4099d2d085d96d19cdee8a/raw/10e88d36c8d3b9765366e01504fc489b395c3f60/hello_world.js' });
+
+      PagePlugins.init();
+
+    </script>
+  </body>
+</html>
